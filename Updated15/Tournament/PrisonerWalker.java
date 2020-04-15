@@ -71,13 +71,6 @@ public class PrisonerWalker extends Agent {
 
     }
 
- 
-    
-    private String getName() {
-		
-		return null;
-	}
-
 	public int getScores()
     {
     	return fitness;
