@@ -132,6 +132,11 @@ public abstract class Agent implements Serializable, Runnable {
         this.color = color;
 
     }
+    
+    public String getName()
+    {
+    	return this.name;
+    }
 
     public abstract void update();
 
